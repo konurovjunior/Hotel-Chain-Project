@@ -1,0 +1,37 @@
+.profile-container {
+    height: 85vh;
+    width: 90%;
+}
+
+.bookings-container {
+    max-height: 80vh;
+    overflow: scroll;
+}
+
+.assignment-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.assignment-dropdown-content {
+    display: block;
+    background-color: white;
+    
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 25%;
+    
+    z-index: 2;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.assignment-dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.room {
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.4);
+}

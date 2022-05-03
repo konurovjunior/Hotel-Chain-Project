@@ -1,0 +1,50 @@
+.navbar {
+    width: 100%;
+    min-height: 60px;
+
+    padding: 0px;
+
+    position: fixed;
+    z-index: 1000;
+
+    background-color: white;
+}
+
+.navbar-placeholder {
+    height: 60px;
+}
+
+.navbar-row {
+    min-height: 60px;
+}
+
+.navbar-menu-button {
+    height: 25px;
+    width: 25px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navbar-account-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.account-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.account-dropdown-content {
+    display: block;
+    background-color: white;
+    
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    
+    z-index: -1;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}

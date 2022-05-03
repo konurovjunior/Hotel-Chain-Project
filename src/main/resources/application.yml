@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mergendb
+    driver-class-name: com.mysql.jdbc.Driver
+    username: admin
+    password: admin
+  jpa:
+    properties:
+      hibernate:
+        id:
+          new_generator_mappings: false
+hotelchainproject:
+  app:
+    jwtSecret: supersecret
+    jwtExpirationMs: 86400000
